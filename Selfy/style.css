@@ -1,0 +1,310 @@
+.main-col {
+    background: url(https://thietbiketnoi.com/wp-content/uploads/2020/01/tong-hop-hinh-nen-background-vector-designer-dep-do-phan-giai-fhd-2k-4k-moi-nhat-2.jpg);
+}
+
+.hamburger {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    font-size: 40px;
+}
+
+input.hamburger:checked ~ nav {
+    right: -9px;
+}
+
+nav{
+  position: absolute;
+  top: 65px;
+  right: -220px;
+  transition: right 500ms;
+  height: 100vh;
+  /* background: black; */
+  background-size: 73%;
+  background: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1018473934%2F0x0.jpg%3Ffit%3Dscale);
+}
+
+h1,h2,h3,h4, nav ul li{
+  font-family: 'Cormorant Garamond',Proza Libre;
+  color: wheat;
+}
+h2{
+  padding-top: 5px;
+  margin: 0px;
+}
+
+p{
+  color: wheat;
+  font-family: Merriweather;
+}
+
+  h1{
+    font-weight: 800px;
+    color: orange;
+  }
+
+  header {
+    background: url(https://fmnews.com.br/wp-content/uploads/2018/09/6957a01b9a3b5e3.jpg);
+      height: 70px;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+  }
+
+  li {
+  }
+
+  nav ul {
+      display: block;
+      padding: 45px;
+  }
+
+  nav ul li {
+      list-style: none;
+      margin: 38px 10px;
+      /* color: red !important; */
+  }
+  nav ul li a {
+      color: wheat;
+      text-decoration: none;
+      padding: 5px 10px;
+      transition: background 300ms, color 300ms;
+  }
+
+  nav ul li a:hover {
+      background: #24bfd8;
+      color: white;
+  }
+a{
+  color: wheat;
+  text-decoration: none;
+}
+  nav a {
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+  }
+
+  .main-menu {
+    font-size: 20px;
+      position: absolute;
+      top: 5px;
+      right: 10px;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0px;
+    left: 1px;
+  }
+  .banner {
+      background: grey;
+      background-image: url(https://lh3.googleusercontent.com/cjilCYJ2QZ9MiM0X1_HTsJYl9ku9wk3u7Bm9Y2YoAPUdiKwz1hio7BsPR58T6VW-PRdU-WjmdbYpNth5L8hF5_WTLA=w640-h400-e365-rj-sc0x00ffffff);
+      height: 60vh;
+      background-size: cover;
+      background-position-x: center;
+      background-attachment: fixed;
+  }
+  .quote:hover {
+      font-size: 20px;
+      color: white;
+  }
+  .quote {
+    font-size: 15px;
+    padding: 70px 20px;
+    max-width: 50%;
+    transition: font-size 500ms;
+  }
+
+  body {
+      margin: 0px;
+  }
+
+  div#main-col {
+      width: 90%;
+      margin: auto;
+  }
+
+
+  .col-3 {
+      padding: 15px 5px;
+  }
+
+  .logo img {
+      width: 70px;
+  }
+  img {
+    width: 4%;
+    padding-right: 10px;
+  }
+  .img-link {
+    padding: 5px;
+}
+
+  .image1 img {
+    width: 100%;
+    height: 65vh;
+}
+
+  footer {
+      background: #404040;
+      padding: 1%;
+      color: white;
+      text-align: center;
+  }
+  .info>h2 {
+    font-size: 30px;
+    transition: font-size 500ms, font-family 500ms;
+}
+
+.info>h2:hover {
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.info>p:hover {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.info>p {
+    transition: font-size 500ms, font-family 500ms;
+}
+  .card-body > h2 {
+      font-size: 26px;
+      transition: font-size 500ms;
+  }
+
+  .card-body>h2:hover {
+      font-size: 35px;
+  }
+  .card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+padding: 2px 16px;
+box-shadow: 0 12px 5px 0 rgba(0,0,0,0.2);
+}
+  .card-body:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+  }
+  .container.info {
+    padding: 8px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+  }
+
+  .photos {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+      background: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-pure-color-watercolor-graffiti-gradient-background-board-design-board-design-image_66713.jpg);
+      padding: 70px 21px;
+      padding-top: 114px;
+      height: 100%;
+  }
+
+  .items img {
+      object-fit: cover;
+      height: 75%;
+      width: 92%;
+      border-radius: 50px;
+  }
+
+  .card {
+      box-shadow: 1px 1px 4px lightgrey;
+      border-radius: 50px;
+  }
+
+  .items:hover {
+      height: 130%;
+      padding-top: 1px;
+  }
+
+  .items {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  .image1 img {
+    object-fit: contain;
+}
+
+.info1>h2:hover {
+    color: #f4acb7;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.info1>h2 {
+    transition: color 500ms, font-family 500ms, font-size 500ms;
+}
+
+.Education>h2:hover {
+    color: #f4acb7;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.Education>h2 {
+    transition: color 500ms, font-family 500ms, font-size 500ms;
+}
+
+.Interest>h2:hover {
+    color: #f4acb7;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.Interest>h2 {
+    transition: color 500ms, font-family 500ms, font-size 500ms;
+}
+.Language>h2:hover {
+    color: #f4acb7;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.Language>h2 {
+    transition: color 500ms, font-family 500ms, font-size 500ms;
+}
+
+.infomation {
+    padding: 66px 10px;
+    background: url(https://inlonggia.com/wp-content/uploads/Background-cong-nghe-dep.jpg);
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+  @media screen and (max-width:700px){
+    .photos{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width: 635px)
+  {
+    .container.info{
+      grid-template-columns: 1fr;
+    }
+    .quote{
+      font-size: 17px;
+    }
+    .img-link{
+      width: 15 7%;
+    }
+    .main-menu{
+      font-size: 22px;
+    }
+  }
+
+  @media screen and (max-width:500px){
+    .photos{
+      grid-template-columns: 1fr;
+    }
+  }

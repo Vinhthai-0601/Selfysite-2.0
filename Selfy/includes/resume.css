@@ -1,0 +1,157 @@
+header {
+    display: flex;
+    background-color: #f2e5d7;
+    height: 16%;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+a {
+    position: fixed;
+    bottom: 611px;
+    right: 140px;
+    color: #b6a6ca;
+}
+body {
+  background: url(https://inlonggia.com/wp-content/uploads/Background-cong-nghe-dep.jpg);
+  background-attachment: fixed;
+  margin: 0px;
+}
+
+img {
+    object-fit: cover;
+    width: 7%;
+    top: 1%;
+    right: 0%;
+    position: absolute;
+    transition: width 500ms;
+}
+
+h2 {
+  font-size: 25px;
+  border: black;
+  font-style: italic;
+  text-decoration: underline;
+  color: #b6a6ca;
+}
+
+.ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Education {
+    padding: 10px;
+    padding-top: 114px;
+}
+.Interest {
+    padding: 10px;
+    padding-top: 5px;
+}
+.Language {
+    padding: 10px;
+    padding-top: 5px;
+}
+h1 {
+    color: #b6a6ca;
+}
+
+h3 {
+    color: #c97d60;
+}
+
+a:hover {
+    background: #c97d60;
+    color: #63372c;
+}
+hr{
+  height: 3px;
+  background-color: #e0ac9d;
+}
+footer {
+    background: #c97d60;
+    text-align: center;
+    font-style: oblique;
+    font-size: 17px;
+    padding: 10px;
+}
+ul li {
+    list-style: none;
+}
+
+header>h1 {
+    font-size: 14px;
+}
+
+.info>h1:hover {
+    font-family: monospace;
+    font-size: 33px;
+    color: #f4acb7;
+}
+
+.info>h1 {
+    transition: font-size 500ms, font-family 500ms, color 500ms;
+}
+
+.info>h2:hover {
+    color: #f4acb7;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.info>h2 {
+    transition: color 500ms, font-family 500ms, font-size 500ms;
+}
+
+.Education>h2:hover {
+    color: #f4acb7;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.Education>h2 {
+    transition: color 500ms, font-family 500ms, font-size 500ms;
+}
+
+.Interest>h2:hover {
+    color: #f4acb7;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.Interest>h2 {
+    transition: color 500ms, font-family 500ms, font-size 500ms;
+}
+.Language>h2:hover {
+    color: #f4acb7;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.Language>h2 {
+    transition: color 500ms, font-family 500ms, font-size 500ms;
+}
+
+img:hover {
+    object-fit: cover;
+    width: 16%;
+    top: 1%;
+    right: 0%;
+    position: absolute;
+}
+
+@media screen and (max-width:800px){
+  .info h1{
+font-size: 20px ;
+}
+}
+
+@media screen and (max-width:500px){
+  .info h1{
+font-size: 15px ;
+}
+.info h2{
+font-size: 15px ;
+}
+}
